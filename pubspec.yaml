@@ -9,6 +9,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  bloc: ^9.2.1
+  http: ^1.6.0
+  flutter_bloc: ^9.1.1
+  shared_preferences: ^2.5.5
 
 dev_dependencies:
   flutter_test:
@@ -17,3 +21,9 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/images/product_headphone.png
+    - assets/images/product_watch.png
+    - assets/images/product_sneaker.png
+    - assets/images/product_backpack.png
+    - assets/images/banner_promo.png
